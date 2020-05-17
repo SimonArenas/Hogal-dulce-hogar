@@ -287,6 +287,11 @@ body {
   gap: 6rem;
   align-items: start;
 }
+@media only screen and (max-width: 37.5em) {
+  .features {
+    margin: 8rem 0;
+  }
+}
 
 .feature {
   display: grid;
@@ -373,6 +378,11 @@ body {
   margin: 15rem 0;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
+}
+@media only screen and (max-width: 37.5em) {
+  .homes {
+    margin: 8rem 0;
+  }
 }
 
 .home {
